@@ -498,6 +498,140 @@ span{
     margin-left: .5rem;
 }
 
+.contact{
+    background: var(--second-bg-color);
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+.rows{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-left{
+    flex-basis: 40%;   
+}
+
+.contact-right{
+    flex-basis: 50%;
+}
+
+.contact-left p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 30px;
+}
+.contact-left h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+    margin-left: 30px;
+}
+
+.contact-left p i{
+    color: var(--main-color);
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.contact-left .social-icons{
+    margin-left: 30px;
+}
+
+.contact-left .social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    font-size: 2rem;
+    border-radius: 50%;
+    color: var(--main-color);
+    margin: 0 1.5rem 3rem 0;
+    transition: .3s ease;
+}
+
+.contact-left .btn{
+    margin-left: 30px;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: var(--bg-color);
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form input::placeholder, form textarea::placeholder{
+    color: white;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--main-color);
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: .3s ease;
+}
+
+.footer ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer .copyright{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
 
 
 
